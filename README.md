@@ -25,8 +25,9 @@ Dataset source: https://www.kaggle.com/paultimothymooney/cvpr-2019-papers
 - 8. Obtain TP and FP values to evaluate LSH.
 
 <img src="Time_Consumption.png" height="250" /> \
-<img src="Comparison.png" height="150" /> \
+<img src="Comparison.png" height="150" /> 
+\
 <img src="Time_Analysis.png" height="250" />
 
-
+Thus, LSH provides good accuracy and is highly efficient in recommending conference papers.
 
