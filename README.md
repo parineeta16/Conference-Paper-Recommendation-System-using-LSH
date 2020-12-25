@@ -26,6 +26,7 @@ Dataset source: https://www.kaggle.com/paultimothymooney/cvpr-2019-papers
 
 ![alt text](Time_Consumption.png) \
 ![alt text](Comparison.png) \
+\
 ![alt text](Time_Analysis.png)
 
 
