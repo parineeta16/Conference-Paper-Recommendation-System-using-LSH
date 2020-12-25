@@ -24,8 +24,9 @@ Dataset source: https://www.kaggle.com/paultimothymooney/cvpr-2019-papers
 - 7. In LSH, we find  appropriate b and r values to find most similar pair of documents.
 - 8. Obtain TP and FP values to evaluate LSH.
 
-
-
+![alt text](Time_Consumption.png) \
+![alt text](Comparison.png) \
+![alt text](Time_Analysis.png)
 
 
 
