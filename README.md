@@ -7,22 +7,22 @@ Hence, Locality Sensitive Hashing (LSH) is used as a criterion to find the simil
 Dataset source: https://www.kaggle.com/paultimothymooney/cvpr-2019-papers 
 
 #### Preprocessing Steps:
-- 1. Lowercase all text.
-- 2. Remove all digits.
-- 3. Remove all punctuations.
-- 4. Removing stop words.
-- 5.  Lemmatization (Stemming).
+- Lowercase all text.
+- Remove all digits.
+- Remove all punctuations.
+- Removing stop words.
+- Lemmatization (Stemming).
 
 #### Implementation
 
-- 1. Reading the document data as a single dictionary
-- 2. Converting the document into a set of k-shingles
-- 3. Generate Minhash Signatures
-- 4. Compute True Jaccard Similarity and find top-n similar documents.
-- 5.  Compute Estimated Jaccard Similarity using the Signature Matrix and find top-n similar documents.
-- 6. Compare the recommendations provided by True and estimated Jaccard Similarity.
-- 7. In LSH, we find  appropriate b and r values to find most similar pair of documents.
-- 8. Obtain TP and FP values to evaluate LSH.
+- Reading the document data as a single dictionary
+- Converting the document into a set of k-shingles
+- Generate Minhash Signatures
+- Compute True Jaccard Similarity and find top-n similar documents.
+-  Compute Estimated Jaccard Similarity using the Signature Matrix and find top-n similar documents.
+- Compare the recommendations provided by True and estimated Jaccard Similarity.
+- In LSH, we find  appropriate b and r values to find most similar pair of documents.
+- Obtain TP and FP values to evaluate LSH.
 
 <img src="Time_Consumption.png" height="250" /> \
 <img src="Comparison.png" height="150" /> 
