@@ -10,7 +10,7 @@ Dataset source: https://www.kaggle.com/paultimothymooney/cvpr-2019-papers
 - Lowercase all text.
 - Remove all digits.
 - Remove all punctuations.
-- Removing stop words.
+- Remove stop words.
 - Lemmatization (Stemming).
 
 #### Implementation
